@@ -1,0 +1,66 @@
+@media(max-width:991px){
+    header{
+      
+        height: 70vh !important;
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+        background-position-y:  -20px !important;
+        background-position-x: -434px !important;
+        
+        background-attachment:fixed ;
+    }
+    .header-content h1{
+        font-size: 35px;
+    }
+    .header-content h2{
+        font-size: 30px;
+    }
+    .container{
+        width: 95%;
+    }
+    .about .count{
+        border: none !important;
+    }
+    .portfolio .nav-link{
+        margin-bottom: 15px;
+
+    }
+    .resume .col-md-6{
+        margin-bottom: 25px;
+    }
+    .testimonial .item{
+        margin-bottom: 25px;
+    }
+    .map .contact-info{
+        width: auto;
+        
+    }
+    
+   
+    
+}
+@media(max-width:768px){
+    .resume{
+        text-align: center;
+    }
+   
+    .contact .details{
+        padding-top: 5rem;
+
+    }
+
+    .footer .copy{
+        padding-top: 1rem;
+        
+    }
+    .footer .copy2{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+
+    }
+    footer p:last-of-type, footer p.copy{
+        text-align: center !important;
+    }
+    
+}
